@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+function validateEmail(mail){
+    var patt = new RegExp("@gmail.com");
+    if(patt.test(mail.value))
+  {
+      alert("you are  Notified")
+ }
+    else{ 
+        alert("invalid email address")
+     }
+}
+
+
+    </script>
+</head>
+<body>
+    <header>
+        
+        <h2>PING</h2>
+       <div>
+        <p style="font-size: 28px;"> We are launchig <b>soon!</b></p>
+        <p style="text-indent: 30px; color:grey">Subscribe and get notified</p>
+    </div>
+    <form name="form1"action="#" >
+        <input type="email" required name="email1" id="email">
+        <p class="ex3"> <input type="submit" value="Notify Me" id= "button" onclick="validateEmail(document.form1.email1)"></p>
+    </form>
+        
+    </header>
+    
+ <img src="../images/illustration-dashboard.png" alt="the slack page">
+
+    <footer>
+        
+        <a href="#" class="fa fa-facebook"></a>  
+        <a href="#" class="fa fa-twitter"></a>  
+        <a href="#" class="fa fa-instagram"></a>  
+         
+          <p style="margin-top:2.5em;"><span>&#9400;</span> Pauline All Rights Reserved.</p>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body{
+    line-height: 3px;
+    overflow-x: hidden !important;
+}
+h2{
+    text-indent: 80px;
+}
+.fa {  
+    padding: 10px;  
+  text-align: center;  
+    margin: 2.5px 1px;  
+    font-size: 14px;  
+    width: 15px;  
+    border-radius: 30%;
+    border-color: rgb(116, 140, 160);
+  }  
+  .fa-facebook {  
+    background:#e0e2e7;  
+    color: #3760b8;  
+  }  
+  .fa-twitter {  
+    background:#e0e2e7;  
+    color: #3760b8;  
+  }  
+  .fa-instagram {  
+    background:#e0e2e7;   
+    color: #3760b8;  
+  }  
+  
+  .fa:hover {  
+      opacity: 0.9;
+      background-color: #3B5998;  
+      color:white;
+      border-color: white;
+      
+  }  
+  
+  header {margin-left: 1em;}
+  footer{ 
+ text-align: center;
+margin:2em 0.5em 2em 0.2em;
+  }
+ 
+
+  #button{
+    border:1px solid #1b57d8;
+    border-radius:15px;
+      color :white;
+      width:268px;
+      height: 35px;
+      background-color: #1b57d8;
+  }
+
+  img{
+    width:18em;
+    height: 15em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+input{
+    width:266px;
+    border-radius:15px;
+    height:30px;
+    border:1px solid grey;
+    }
+@media screen and (min-width: 420px) and (max-width: 800px) {
+   
+    p.ex3 {display: block;}
+
+}
+  
+  @media (min-width: 800px) {
+      h2{
+          text-indent: -160px;
+      }
+
+    header{
+        text-align: center;
+        width:85em;
+      }
+
+    img{
+        width:30em;
+        margin-left: 29em;
+        margin-top: 3em;
+        height: 18em;
+        /* text-align: center; */
+    }
+    input{
+      border:1px solid #babbc0;
+        border-radius:15px;
+        width: 300px;
+        height:35px;
+    }
+
+    #button{
+        width: 150px;
+        height: 35px;
+
+    }
+
+    div{
+        width: 1200px;
+        text-align: center;
+        
+    }
+
+    .fa {  
+        padding: 15px;  
+      text-align: center;  
+        margin: 3px 1.5px;  
+        font-size: 20px;  
+        width: 25px;  
+        border-radius: 45%;
+        border-color: rgb(116, 140, 160);
+      } 
+
+      p.ex3 {
+          display:inline;}
+
+          footer{ 
+            text-align: center;
+            margin:4em 0.5em 0.5em 1em;
+             }
+  }
